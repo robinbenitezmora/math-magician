@@ -1,39 +1,94 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Poppins, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #f1f1f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calculator {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  margin: 3rem auto;
+  height: 30rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.calculator-display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 20%;
+  background: #a99999;
+  border-radius: 5px 5px 0 0;
+  padding: 0 1rem;
+}
+
+.calculator-display-result {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(244 231 231);
+}
+
+.calculator-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+}
+
+.calculator-buttons-row {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.btn {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 25%;
+  height: 100%;
+  background: #f1f1f1;
+  border: 1px solid #e1e1e1;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background: #e1e1e1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.btn-operation {
+  width: 25%;
+  height: auto;
+  background: orange;
+  border: 1px solid #e1e1e1;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.btn-operation:hover {
+  background: #ff8c00;
+}
+
+.zero {
+  width: 50%;
 }
