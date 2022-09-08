@@ -34,12 +34,8 @@ body {
   background: #a99999;
   border-radius: 5px 5px 0 0;
   padding: 0 1rem;
-}
-
-.calculator-display-result {
   font-size: 2rem;
-  font-weight: 500;
-  color: rgb(244 231 231);
+  color: #fff;
 }
 
 .calculator-buttons {
