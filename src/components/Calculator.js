@@ -9,12 +9,7 @@ class Calculator extends React.Component {
   }
 
   eventCalculator(event) {
-    const { target } = event;
-    const { name } = target;
-    const { value } = target;
-    const { state } = this;
-    const data = calculate(state, { name, value });
-    this.setState(data);
+    this.setState((state) => calculate(state, event.target.textContent));
   }
 
   render() {
@@ -22,9 +17,7 @@ class Calculator extends React.Component {
     return (
       <div className="calculator">
         <div className="calculator-display">
-          {total || '0'}
-          {operation || ''}
-          {next || ''}
+          {(total || '') + (operation || '') + (next || '')}
         </div>
         <div className="calculator-buttons">
           <div className="calculator-buttons-row">
