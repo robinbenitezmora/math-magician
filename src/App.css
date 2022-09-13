@@ -88,19 +88,3 @@ body {
 .zero {
   width: 50%;
 }
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 4rem;
-  padding: 0 1rem;
-}
-
-.navbar-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #222;
-}
