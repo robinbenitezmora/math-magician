@@ -10,7 +10,7 @@ function Calculator() {
 
   return (
     <div className="calculator-page">
-      <h2>Let&apos;s do some math!</h2>
+      <h2 className="calculator-title">Let&apos;s do some math!</h2>
       <div className="calculator">
         <div className="calculator-display">
           {(total || '') + (operation || '') + (next || '')}
