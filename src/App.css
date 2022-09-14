@@ -173,3 +173,67 @@ p {
   font-weight: 400;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 5rem;
+    padding: 1rem;
+  }
+
+  .navbar-title {
+    font-size: 1.2rem;
+  }
+
+  .navbar-links {
+    width: 50%;
+  }
+
+  .links {
+    font-size: 1rem;
+  }
+
+  .links:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    color: #27e819;
+  }
+
+  .home-page {
+    padding: 2rem;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .calculator-page {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .calculator-title {
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .calculator {
+    width: 100%;
+    height: 25rem;
+    align-self: center;
+  }
+
+  .quote {
+    padding: 3rem;
+  }
+
+  .quote-title {
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
