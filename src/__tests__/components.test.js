@@ -93,6 +93,7 @@ describe('Test Page Component Rendering', () => {
 		expect(tree).toMatchSnapshot();
 	});
 });
+
 describe('Test Header Component Rendering', () => {
 	it('Navbar renders correctly', () => {
 		const tree = renderer.create(<Router><Navbar /></Router>).toJSON();
@@ -102,5 +103,4 @@ describe('Test Header Component Rendering', () => {
 		render(<Router><Navbar /></Router>);
 		expect(screen.getByText('Math Magicians'));
 	});
-
 });
