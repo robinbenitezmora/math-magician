@@ -12,18 +12,6 @@ describe('Test Calculator component', () => {
 		const tree = renderer.create(<Calculator />).toJSON();
 		expect(tree).toMatchSnapshot();
 	});
-	it('Home page renders correctly', () => {
-		const tree = renderer.create(<Home />).toJSON();
-		expect(tree).toMatchSnapshot();
-	});
-	it('Quote page renders correctly', () => {
-		const tree = renderer.create(<Quote />).toJSON();
-		expect(tree).toMatchSnapshot();
-	});
-	it('Navbar renders correctly', () => {
-		const tree = renderer.create(<Router><Navbar /></Router>).toJSON();
-		expect(tree).toMatchSnapshot();
-	});
 	it('Simulate click event numbers', () => {
 		render(<Calculator />);
 		const allNumbers = '1234567890';
@@ -93,5 +81,19 @@ describe('Test Calculator component', () => {
 		expect(calcScreen.textContent).toBe('1000');
 		fireEvent.click(keyAC);
 		expect(calcScreen.textContent).toBe('');
+	});
+});
+describe('Test Page Component Rendering', () => {
+	it('Home page renders correctly', () => {
+		const tree = renderer.create(<Home />).toJSON();
+		expect(tree).toMatchSnapshot();
+	});
+	it('Quote page renders correctly', () => {
+		const tree = renderer.create(<Quote />).toJSON();
+		expect(tree).toMatchSnapshot();
+	});
+	it('Navbar renders correctly', () => {
+		const tree = renderer.create(<Router><Navbar /></Router>).toJSON();
+		expect(tree).toMatchSnapshot();
 	});
 });
