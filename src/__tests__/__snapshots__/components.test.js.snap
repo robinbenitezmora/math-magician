@@ -176,6 +176,44 @@ exports[`Test Calculator component renders correctly 1`] = `
 </div>
 `;
 
+exports[`Test Header Component Rendering Navbar renders correctly 1`] = `
+<div
+  className="navbar"
+>
+  <h1
+    className="navbar-title"
+  >
+    Math Magicians
+  </h1>
+  <div
+    className="navbar-links"
+  >
+    <a
+      aria-current="page"
+      className="links active"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="links"
+      href="/Calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      className="links"
+      href="/Quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</div>
+`;
+
 exports[`Test Page Component Rendering Home page renders correctly 1`] = `
 <div
   className="home-page"
