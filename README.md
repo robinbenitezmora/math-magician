@@ -14,7 +14,7 @@
 - CSS
 
 ## 💻 Live demo
-- [Live Demo Link](https://github.com/robinbenitezmora/math-magician)
+- [Live Demo Link](https://63233fbe2d9fc6644776cddc--serene-rolypoly-6c9e95.netlify.app/)
 
 ## Getting Started
 
