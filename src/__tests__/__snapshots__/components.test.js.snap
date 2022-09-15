@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Calculator component renders correctly 1`] = `
+<div
+  className="calculator-page"
+>
+  <h2
+    className="calculator-title"
+  >
+    Let's do some math!
+  </h2>
+  <div
+    className="calculator"
+  >
+    <div
+      className="calculator-display"
+    />
+    <div
+      className="calculator-buttons"
+    >
+      <div
+        className="calculator-buttons-row"
+      >
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="btn-operation"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="calculator-buttons-row"
+      >
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="btn-operation"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div
+        className="calculator-buttons-row"
+      >
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="btn-operation"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="calculator-buttons-row"
+      >
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="btn-operation"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="calculator-buttons-row"
+      >
+        <button
+          className="btn zero"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="btn"
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="btn-operation"
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Header Component Rendering Navbar renders correctly 1`] = `
+<div
+  className="navbar"
+>
+  <h1
+    className="navbar-title"
+  >
+    Math Magicians
+  </h1>
+  <div
+    className="navbar-links"
+  >
+    <a
+      aria-current="page"
+      className="links active"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="links"
+      href="/Calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      className="links"
+      href="/Quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Test Page Component Rendering Home page renders correctly 1`] = `
+<div
+  className="home-page"
+>
+  <h2
+    className="home-title"
+  >
+    Welcome to our page!
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas, quae, quibusdam voluptates, voluptatibus quod voluptatum impedit quidem doloremque quos repellat. Quod, quibusdam! Quisquam voluptas, quae, quibusdam voluptates, voluptatibus quod voluptatum impedit quidem doloremque quos repellat. Quod, quibusdam!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas, quae, quibusdam voluptates, voluptatibus quod voluptatum impedit quidem doloremque quos repellat. Quod, quibusdam! Quisquam voluptas, quae, quibusdam voluptates, voluptatibus quod voluptatum impedit quidem doloremque quos repellat. Quod, quibusdam!
+  </p>
+</div>
+`;
+
+exports[`Test Page Component Rendering Navbar renders correctly 1`] = `
+<div
+  className="navbar"
+>
+  <h1
+    className="navbar-title"
+  >
+    Math Magicians
+  </h1>
+  <div
+    className="navbar-links"
+  >
+    <a
+      aria-current="page"
+      className="links active"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="links"
+      href="/Calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      className="links"
+      href="/Quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Test Page Component Rendering Quote page renders correctly 1`] = `
+<div
+  className="quote"
+>
+  <p
+    className="quote-title"
+  >
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. –William Paul Thurston
+  </p>
+</div>
+`;
